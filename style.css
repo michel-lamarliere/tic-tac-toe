@@ -41,10 +41,6 @@ html, body {
   background-color: #8E6969;
   font-weight: bold;
 }
-.player-one > div {
-  padding-top: 1em;
-  font-size: 30px;
-}
 
 .player-two {
   height: 100%;
@@ -52,7 +48,8 @@ html, body {
   background-color: #BEA4A4;
   font-weight: bold;
 }
-.player-two > div {
+
+.name {
   padding-top: 1em;
   font-size: 30px;
 }
@@ -70,7 +67,7 @@ html, body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 30%;
 }
 
 .score {
@@ -160,7 +157,7 @@ html, body {
   justify-content: center;
   width: 150px;
   height: 30px;
-  margin-top: 10vh;
+  margin-top: 8vh;
   border-radius: 25px;
   background-color: black;
   color: white;
@@ -170,4 +167,54 @@ html, body {
 #michel > a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 620px) {
+  .your-turn {
+    width: 50%;
+  }
+
+  .score {
+    font-size: 25px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  #michel {
+    margin-top: 8vh;
+  }
+
+  .result {
+    width: 80%;
+    height: 70%;
+  }
+
+  .winner, .leader {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .name {
+    font-size: 15px;
+  }
+
+  .gameboard-square {
+    height: 0.5em;
+    width: 0.5em;
+  }
+
+  #michel {
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-height: 735px) {
+  .center-container {
+    top: 25%;
+  }
+
+  #michel {
+    margin-top: 6vh;
+  }
 }

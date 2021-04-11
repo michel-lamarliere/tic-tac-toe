@@ -184,6 +184,48 @@ html, body {
 }
 
 @media screen and (max-width: 620px) {
+    
+
+    .your-turn {
+        width: 50%;
+    }
+
+    // .header {
+    //     font-size: 25px;
+    //     height: 10%;
+    // }
+
+    // .container {
+    //     height: 90%;
+    // }
+
+    // .center-container {
+    //     top: 30%;
+    // }
+
+    // .score {
+    //     font-size: 25px;
+    // }
+
+    // .name {
+    //     font-size: 20px;
+    // }
+
+    // #michel {
+    //     margin-top: 6vh;
+    // }
+
+    // .result {
+    //     width: 80%;
+    //     height: 70%;
+    // }
+
+    // .winner, .leader {
+    //     font-size: 30px;
+    // }
+}
+
+@media screen and (max-width: 520px) {
     .header {
         font-size: 25px;
         height: 10%;
@@ -195,10 +237,6 @@ html, body {
 
     .center-container {
         top: 20%;
-    }
-
-    .your-turn {
-        width: 50%;
     }
 
     .score {
@@ -223,6 +261,13 @@ html, body {
     }
 }
 
+@media screen and (max-width: 440px) {
+    .center-container {
+        top: 20%;
+    }
+}
+
+
 @media screen and (max-width: 321px) {
     .name {
         font-size: 15px;
@@ -239,9 +284,6 @@ html, body {
 }
 
 @media screen and (max-height: 735px) {
-    .center-container {
-        top: 25%;
-    }
 
     #michel {
         margin-top: 6vh;

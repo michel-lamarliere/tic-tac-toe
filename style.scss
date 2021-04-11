@@ -184,6 +184,15 @@ html, body {
 }
 
 @media screen and (max-width: 620px) {
+    .header {
+        font-size: 25px;
+        height: 10%;
+    }
+
+    .container {
+        height: 90%;
+    }
+
     .center-container {
         top: 25%;
     }

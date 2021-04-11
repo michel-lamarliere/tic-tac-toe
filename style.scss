@@ -184,6 +184,9 @@ html, body {
 }
 
 @media screen and (max-width: 620px) {
+    .center-container {
+        top: 25%;
+    }
 
     .your-turn {
         width: 50%;
@@ -198,7 +201,7 @@ html, body {
     }
 
     #michel {
-        margin-top: 8vh;
+        margin-top: 6vh;
     }
 
     .result {
